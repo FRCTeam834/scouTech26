@@ -3,9 +3,6 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "engines": {
-    "node": "18.x"
-  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -20,7 +17,6 @@
     "@sveltejs/vite-plugin-svelte": "^6.2.1",
     "autoprefixer": "^10.4.20",
     "daisyui": "^5.5.14",
-    "esbuild": "^0.20.2",
     "svelte": "^5.45.6",
     "svelte-check": "^4.3.4",
     "tailwindcss": "^3.4.9",
@@ -28,6 +24,7 @@
     "vite": "^7.2.6"
   },
   "dependencies": {
+    "node": "^25.3.0",
     "pg": "^8.17.1"
   }
 }
