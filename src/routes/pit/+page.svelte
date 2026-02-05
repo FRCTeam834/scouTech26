@@ -11,7 +11,7 @@
 </script>
 
 <form method="POST">
-  <div class="center-wrapper mt-40">
+ <div class="center-wrapper mt-40 flex justify-center items-center min-h-screen" data-theme="swimmingflower">
 
     <select name="name" class="select select-bordered w-full max-w-xs" required>
   <option disabled selected>Name</option>

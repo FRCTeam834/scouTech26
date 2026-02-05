@@ -11,47 +11,38 @@ const config: Config = {
     themes: [
       {
         swimmingflower: {
+          name: 'jumpingmax',
+          default: false,
+          prefersdark: false,
           'color-scheme': 'dark',
-
-          'base-100': '#4169E2',
-          'base-200': '#4169E2',
-          'base-300': '#4169E2',
-          'base-content': 'oklch(96% 0.003 264.542)',
-
-          primary: '#4169E2',
-          'primary-content': 'oklch(14% 0.004 49.25)',
-
-          secondary: '#FF6A14',
-          'secondary-content': 'oklch(26% 0.079 36.259)',
-
-          accent: '#FF6A14',
-          'accent-content': 'oklch(28% 0.141 291.089)',
-
-          neutral: '#FF6A14',
-          'neutral-content': 'oklch(98% 0.002 247.839)',
-
-          info: '#4169E2',
-          'info-content': 'oklch(97% 0.014 254.604)',
-
-          success: '#4169E2',
-          'success-content': 'oklch(98% 0.031 120.757)',
-
-          warning: '#4169E2',
-          'warning-content': 'oklch(98% 0.016 73.684)',
-
-          error: '#4169E2',
-          'error-content': 'oklch(96% 0.015 12.422)',
-
-          '--radius-selector': '2rem',
-          '--radius-field': '2rem',
-          '--radius-box'  : '2rem',
-
+          '--color-base-100': 'oklch(96% 0.018 272.314)',
+          '--color-base-200': '#4169E2',
+          '--color-base-300': '#4169E2',
+          '--color-base-content': 'oklch(35% 0.144 278.697)',
+          '--color-primary': '#4169E2',
+          '--color-primary-content': 'oklch(97% 0.013 17.38)',
+          '--color-secondary': '#4169E2',
+          '--color-secondary-content': 'oklch(97% 0.014 254.604)',
+          '--color-accent': '#4169E2',
+          '--color-accent-content': 'oklch(97% 0.013 17.38)',
+          '--color-neutral': '#4169E2',
+          '--color-neutral-content': 'oklch(96% 0.018 272.314)',
+          '--color-info': '#4169E2',
+          '--color-info-content': 'oklch(98% 0.019 200.873)',
+          '--color-success': '#4169E2',
+          '--color-success-content': 'oklch(98% 0.031 120.757)',
+          '--color-warning': '#4169E2',
+          '--color-warning-content': 'oklch(98% 0.022 95.277)',
+          '--color-error': '#4169E2',
+          '--color-error-content': 'oklch(97% 0.013 17.38)',
+          '--radius-selector': '0.25rem',
+          '--radius-field': '1rem',
+          '--radius-box': '0.5rem',
           '--size-selector': '0.25rem',
           '--size-field': '0.25rem',
-
           '--border': '1px',
-          '--depth': '1',
-          '--noise': '0',
+          '--depth': '0',
+          '--noise': '1',
         },
       },
     ],

@@ -9,7 +9,7 @@
 </script>
 
 <form method="POST">
-  <div class="center-wrapper mt-40 min-h-screen bg-base-100 text-base-content ">
+  <div class="center-wrapper pt-40">
 
     <select name="name" class="select select-bordered w-full max-w-xs" required>
       <option disabled selected value="">Name</option>
