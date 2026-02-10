@@ -28,6 +28,13 @@ export const actions: Actions = {
           ? Number(heightRaw)
           : null;
 
+      // ballsHeld
+      const ballsHeldRaw = data.get('ballsHeld');
+      const ballsHeld =
+        ballsHeldRaw !== null && ballsHeldRaw.toString().trim() !== ''
+          ? Number(ballsHeldRaw)
+          : null;
+
       // Cycles
       const cyclesRaw = data.get('cycles');
       const cycles =
@@ -52,17 +59,19 @@ export const actions: Actions = {
           weight,
           length,
           height,
+          ballsHeld,
           cycles,
           climb_height,
           auton_climb
         )
-        VALUES ($1,$2,$3,$4,$5,$6,$7)
+        VALUES ($1,$2,$3,$4,$5,$6,$7,$8)
         `,
         [
           name,
           weight,
           length,
           height,
+          ballsHeld,
           cycles,
           climb_height,
           auton_climb
@@ -76,4 +85,3 @@ export const actions: Actions = {
     }
   }
 };
-

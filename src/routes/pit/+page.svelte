@@ -70,13 +70,21 @@
 <div class="flex w-48 items-center justify-between">
 <input 
       type="text" 
+      name="ballsHeld"
+      placeholder="how many balls"
+/>
+</div>
+
+<div class="flex w-48 items-center justify-between">
+<input 
+      type="text" 
       name="height"
       placeholder="Robot Height"
 />
 </div>
 <div class="flex w-48 items-center justify-between">
 <select name="climb" class="select select-bordered w-full max-w-xs">
-    <option disabled selected>Climb Height</option>
+    <option disabled selected>Climb Level</option>
     <option value = "1">1</option>
     <option value = "2">2</option>
     <option value = "3">3</option>
