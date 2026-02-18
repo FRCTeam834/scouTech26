@@ -45,7 +45,7 @@
   <option value="Mason Gildein">Mason Gildein</option>
   <option value="Matthew Ryan">Matthew Ryan</option>
   <option value="Vanessa Trbuza">Vanessa Trbuza</option>
-  <option value="Yusef Syed">Yusef Syed</option>
+  <option value="Yusef Syed">Yusef name</option>
   <option value="Myles Bartholomew">Myles Bartholomew</option>
   <option value="Liam Karlson">Liam Karlson</option>
 </select>

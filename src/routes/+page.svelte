@@ -58,7 +58,7 @@
       required
       min="1"
     />
-
+    
     <br><br><br><br>
 
     <select name="teamName" class="select select-bordered w-full max-w-xs" required>
