@@ -7,7 +7,6 @@
   const dec = (value: number) => Math.max(0, value - 1);
   const inc = (value: number) => value + 1;
 </script>
-
 <form method="POST">
   <div class="center-wrapper pt-40">
 
@@ -63,8 +62,40 @@
     <br><br><br><br>
 
     <select name="teamName" class="select select-bordered w-full max-w-xs" required>
-      <option disabled selected value="">Team Name</option>
-      <option value="834 Spartechs">834 SparTechs</option>
+<option disabled selected value="">Team Name</option>
+<option value="103 Cybersonics">103 Cybersonics</option>
+<option value="365 Miracle Workerz">365 Miracle Workerz</option>
+<option value="834 SparTechs">834 SparTechs</option>
+<option value="1218 SCH Robotics">1218 SCH Robotics</option>
+<option value="1257 Parallel Universe">1257 Parallel Universe</option>
+<option value="1391 The Metal Moose">1391 The Metal Moose</option>
+<option value="1640 Sab-BOT-age">1640 Sab-BOT-age</option>
+<option value="1647 Iron Devils">1647 Iron Devils</option>
+<option value="1712 Dawgma">1712 Dawgma</option>
+<option value="1807 Redbird Robotics">1807 Redbird Robotics</option>
+<option value="1923 The MidKnight Inventors">1923 The MidKnight Inventors</option>
+<option value="2554 The Warhawks">2554 The Warhawks</option>
+<option value="2720 Red Watch Robotics">2720 Red Watch Robotics</option>
+<option value="2722 Charge Robotics">2722 Charge Robotics</option>
+<option value="4342 Demon Robotics">4342 Demon Robotics</option>
+<option value="4637 BambieBotz">4637 BambieBotz</option>
+<option value="4652 Ironmen 2">4652 Ironmen 2</option>
+<option value="5401 Fightin Robotic Owls">5401 Fightin Robotic Owls</option>
+<option value="5732 ROBOTIGERS">5732 ROBOTIGERS</option>
+<option value="5789 The Other Owls">5789 The Other Owls</option>
+<option value="7414 RetroRobotics">7414 RetroRobotics</option>
+<option value="7587 Metuchen Momentum">7587 Metuchen Momentum</option>
+<option value="8130 Absegami Robotics">8130 Absegami Robotics</option>
+<option value="8714 Robo Griffins">8714 Robo Griffins</option>
+<option value="8721 Code Name M.I.T.">8721 Code Name M.I.T.</option>
+<option value="9094 The Earthquakers">9094 The Earthquakers</option>
+<option value="9416 International Operatives of World Affairs">9416 International Operatives of World Affairs</option>
+<option value="9439 Knights of Polaris">9439 Knights of Polaris</option>
+<option value="10157 Roman Robotics">10157 Roman Robotics</option>
+<option value="10400 DART Doane Academy Robotics Team">10400 DART Doane Academy Robotics Team</option>
+<option value="11104 Phoenix Phanatics">11104 Phoenix Phanatics</option>
+
+      
     </select>
 
     <h1 class="text-3xl font-bold mt-4">Auton</h1>
