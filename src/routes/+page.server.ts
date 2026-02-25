@@ -1,5 +1,8 @@
 import { query } from '$lib/server/database';
 import type { Actions } from './$types';
+import { env } from '$env/dynamic/private';
+
+console.log("DATABASE_URL:", env.DATABASE_URL);
 
 export const actions: Actions = {
   default: async ({ request }) => {
