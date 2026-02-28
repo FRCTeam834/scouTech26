@@ -35,7 +35,6 @@
       <option value="Grant Hufgard">Grant Hufgard</option>
       <option value="Manas Pol">Manas Pol</option>
       <option value="Mark Hernandez Guerra">Mark Hernandez Guerra</option>
-      <option value="Kyler Mooney">Kyler Mooney</option>
       <option value="Krupa Dihora">Krupa Dihora</option>
       <option value="Sebastian Velez">Sebastian Velez</option>
       <option value="Quinn Ham">Quinn Ham</option>
@@ -116,7 +115,6 @@
 
     <div class="flex w-48 items-center justify-between">
       <h1>Did they climb?</h1>
-      <!-- name matches server: climbed -->
       <input
         type="checkbox"
         name="climbed"
@@ -142,6 +140,7 @@
 
     <select name="climb" class="select select-bordered w-full max-w-xs">
       <option disabled selected value="">Climb Height</option>
+      <option value ="0">0</option>
       <option value="1">1</option>
       <option value="2">2</option>
       <option value="3">3</option>
@@ -149,7 +148,6 @@
 
     <div class="flex w-48 items-center justify-between">
       <h1>Did they break?</h1>
-      <!-- name matches server: broke -->
       <input
         type="checkbox"
         name="broke"
@@ -157,8 +155,8 @@
       />
     </div>
 
-    <input name="defence" placeholder="Defence Notes" class="input w-full max-w-xs" />
-    <input name="notes" placeholder="Additional Notes" class="input w-full max-w-xs" />
+    <input name="defence" placeholder="Defence Notes scale of 1-5" class="input w-full max-w-xs" />
+    <input name="notes" placeholder="scale of 1-5 how good was their driver" class="input w-full max-w-xs" />
 
     <button type="submit" class="btn">Submit</button>
   </div>
