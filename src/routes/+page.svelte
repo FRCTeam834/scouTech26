@@ -99,7 +99,7 @@
 
     <h1 class="text-3xl font-bold mt-4">Auton</h1>
 
-    <h1>Misses</h1>
+    <h1>How many balls did they score?</h1>
     <div class="flex w-48 items-center justify-between">
       <button type="button" class="btn" on:click={() => (misses = dec(misses))}>-</button>
       <input type="number" name="misses" bind:value={misses} min="0" class="input w-16 text-center" />

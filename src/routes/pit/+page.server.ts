@@ -52,6 +52,10 @@ export const actions: Actions = {
       // Auton climb toggle
       const auton_climb = data.get('auton_climb') === 'on';
 
+      const left_start = data.get('left_start') === 'on';
+      const middle_start = data.get('middle_start') === 'on';
+      const right_start = data.get('right_start') === 'on';
+
       await query(
         `
         INSERT INTO robot_scouting (
@@ -62,9 +66,12 @@ export const actions: Actions = {
           ballsHeld,
           cycles,
           climb_height,
-          auton_climb
+          auton_climb,
+          right_start,
+          middle_start,
+          left_start
         )
-        VALUES ($1,$2,$3,$4,$5,$6,$7,$8)
+        VALUES ($1,$2,$3,$4,$5,$6,$7,$8,$9,$10,$11)
         `,
         [
           name,
@@ -74,7 +81,10 @@ export const actions: Actions = {
           ballsHeld,
           cycles,
           climb_height,
-          auton_climb
+          auton_climb,
+          right_start,
+          middle_start,
+          left_start
         ]
       );
 

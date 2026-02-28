@@ -105,8 +105,33 @@
 </div>
 
 <div class="flex w-48 items-center justify-between">
+      <h1>Left Start</h1>
+      <input
+        type="checkbox"
+        name="left_start"
+        class="toggle border-indigo-600 bg-indigo-500 checked:border-orange-500 checked:bg-orange-400 checked:text-orange-800"
+      />
+</div>
+<div class="flex w-48 items-center justify-between">
+      <h1>Middle Start</h1>
+      <input
+        type="checkbox"
+        name="middle_start"
+        class="toggle border-indigo-600 bg-indigo-500 checked:border-orange-500 checked:bg-orange-400 checked:text-orange-800"
+      />
+</div>
+<div class="flex w-48 items-center justify-between">
+      <h1>Right Start</h1>
+      <input
+        type="checkbox"
+        name="right_start"
+        class="toggle border-indigo-600 bg-indigo-500 checked:border-orange-500 checked:bg-orange-400 checked:text-orange-800"
+      />
+</div>
 
+<div class="flex w-48 items-center justify-between">
     <button type="submit" class="btn">Submit</button>
+
 </div>
 </div>
 </form>
