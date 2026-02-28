@@ -124,7 +124,7 @@
 
     <h1 class="text-3xl font-bold mt-4">Teleop</h1>
 
-    <h1>Misses</h1>
+    <h1>how many balls did they score?</h1>
     <div class="flex w-48 items-center justify-between">
       <button type="button" class="btn" on:click={() => (teleopMisses = dec(teleopMisses))}>-</button>
       <input type="number" name="teleopMisses" bind:value={teleopMisses} min="0" class="input w-16 text-center" />
