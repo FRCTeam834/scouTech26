@@ -46,7 +46,7 @@
       <option value="Yusef Syed">Yusef Syed</option>
       <option value="Myles Bartholomew">Myles Bartholomew</option>
       <option value="Liam Karlson">Liam Karlson</option>
-      <optin value="Emma Husvar">Emma Husvar</option>
+      <option value="Emma Husvar">Emma Husvar</option>
     </select>
 
     <br><br>
