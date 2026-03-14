@@ -15,6 +15,7 @@
     <select name="name" class="select select-bordered w-full max-w-xs" required>
 <option disabled selected>Name</option>
 <option value="103 Cybersonics">103 Cybersonics</option>
+<option value="190 gompei">190 gompei</option>
 <option value="365 Miracle Workerz">365 Miracle Workerz</option>
 <option value="834 SparTechs">834 SparTechs</option>
 <option value="1218 SCH Robotics">1218 SCH Robotics</option>
@@ -37,6 +38,7 @@
 <option value="7414 RetroRobotics">7414 RetroRobotics</option>
 <option value="7587 Metuchen Momentum">7587 Metuchen Momentum</option>
 <option value="8130 Absegami Robotics">8130 Absegami Robotics</option>
+<option value="8704 Void warranty">8704 Void warranty</option>
 <option value="8714 Robo Griffins">8714 Robo Griffins</option>
 <option value="8721 Code Name M.I.T.">8721 Code Name M.I.T.</option>
 <option value="9094 The Earthquakers">9094 The Earthquakers</option>
