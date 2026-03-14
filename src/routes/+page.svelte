@@ -1,11 +1,12 @@
 <script lang="ts">
+  let scored = $state(0);
   let misses = $state(0);
   let cycles = $state(0);
   let teleopMisses = $state(0);
   let teleopCycles = $state(0);
 
-  const dec = (value: number) => Math.max(0, value - 1);
-  const inc = (value: number) => value + 1;
+  const dec = (value: number) => Math.max(0, value - 5);
+  const inc = (value: number) => value + 5;
 </script>
 <form method="POST">
   <div class="center-wrapper pt-40">
@@ -101,16 +102,9 @@
 
     <h1>How many balls did they score?</h1>
     <div class="flex w-48 items-center justify-between">
-      <button type="button" class="btn" on:click={() => (misses = dec(misses))}>-</button>
-      <input type="number" name="misses" bind:value={misses} min="0" class="input w-16 text-center" />
-      <button type="button" class="btn" on:click={() => (misses = inc(misses))}>+</button>
-    </div>
-
-    <h1>Cycles</h1>
-    <div class="flex w-48 items-center justify-between">
-      <button type="button" class="btn" on:click={() => (cycles = dec(cycles))}>-</button>
-      <input type="number" name="cycles" bind:value={cycles} min="0" class="input w-16 text-center" />
-      <button type="button" class="btn" on:click={() => (cycles = inc(cycles))}>+</button>
+      <button type="button" class="btn" on:click={() => (scored = dec(scored))}>-</button>
+      <input type="number" name="scored" bind:value={scored} min="0" class="input w-16 text-center" />
+      <button type="button" class="btn" on:click={() => (scored = inc(scored))}>+</button>
     </div>
 
     <div class="flex w-48 items-center justify-between">
@@ -124,18 +118,11 @@
 
     <h1 class="text-3xl font-bold mt-4">Teleop</h1>
 
-    <h1>how many balls did they score?</h1>
+    <h1>how many balls did they score? </h1>
     <div class="flex w-48 items-center justify-between">
       <button type="button" class="btn" on:click={() => (teleopMisses = dec(teleopMisses))}>-</button>
       <input type="number" name="teleopMisses" bind:value={teleopMisses} min="0" class="input w-16 text-center" />
       <button type="button" class="btn" on:click={() => (teleopMisses = inc(teleopMisses))}>+</button>
-    </div>
-
-    <h1>Cycles</h1>
-    <div class="flex w-48 items-center justify-between">
-      <button type="button" class="btn" on:click={() => (teleopCycles = dec(teleopCycles))}>-</button>
-      <input type="number" name="teleopCycles" bind:value={teleopCycles} min="0" class="input w-16 text-center" />
-      <button type="button" class="btn" on:click={() => (teleopCycles = inc(teleopCycles))}>+</button>
     </div>
 
     <select name="climb" class="select select-bordered w-full max-w-xs">
