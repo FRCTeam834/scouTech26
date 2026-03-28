@@ -58,7 +58,7 @@ export const actions: Actions = {
 
       await query(
         `
-        INSERT INTO robot_scouting (
+        INSERT INTO pit_bensalem (
           name,
           weight,
           length,
