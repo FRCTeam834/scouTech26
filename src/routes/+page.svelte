@@ -148,7 +148,7 @@
 
     {#each [
       { label: "They played good defense", bind: defense, name: "defense" },
-      { label: "they played good defense", bind: shoot, name: "shoot" },
+      { label: "They were accurate", bind: shoot, name: "shoot" },
       { label: "they evaded other defenders well", bind: evade, name: "evade" },
       { label: "they picked up balls efficiently", bind: pickup, name: "pickup" }
     ] as item}
